@@ -1,3 +1,0 @@
-docker build -t "centom:1.0" .
-docker run -d --name centom -p 8081:8080 centom:1.0 ./catalina.sh run
-navigate in browser to localhost:8081
